@@ -39,6 +39,8 @@ fspace	equ 0x087F4B10
 .org 0x08023972
 	mov	r1,0x10
 
+.org 0x08023992
+	nop
 .org 0x08023996
 	mov	r1,0x40
 

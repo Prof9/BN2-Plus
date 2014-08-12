@@ -123,7 +123,7 @@ endJackIn:
 
 data_animJackIn_length:
 	db	0x1C
-	db	0x6
+	db	0x1C+0x6
 
 .align 4
 data_animJackIn_end:
