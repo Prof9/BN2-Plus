@@ -1,0 +1,11 @@
+# Exclude ARMIPS
+armips.exe
+
+# Exclude symfiles
+*.sym
+
+# Exclude patches
+*.ips
+
+# Do NOT commit any ROMs
+*.gba
