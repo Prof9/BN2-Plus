@@ -121,6 +121,7 @@ endJackIn:
 	bx	r0
 
 
+.align 4
 data_animJackIn_length:
 	db	0x1C
 	db	0x1C+0x6
