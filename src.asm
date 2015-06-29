@@ -3,11 +3,11 @@ fspace	equ 0x087F4B10
 .relativeinclude on
 .erroronwarning on
 .gba
-.open roms\in.gba,roms\out.gba,0x08000000
+.open "roms\in.gba","roms\out.gba",0x08000000
 
-.include src_ext.asm
+.include "src_ext.asm"
 
-.include bugfixes.asm
+.include "bugfixes.asm"
 
 .org 0x08001560
 	dw	0x3E06
