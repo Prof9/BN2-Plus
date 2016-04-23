@@ -5,6 +5,8 @@ fspace	equ 0x087F4B10
 .gba
 .open "roms\in.gba","roms\out.gba",0x08000000
 
+.include "macros.asm"
+
 .include "src_ext.asm"
 
 .include "bugfixes.asm"

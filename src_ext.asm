@@ -157,27 +157,11 @@ data_jackIn_pal:
 	.import "jackin\pal6.bin"
 	.import "jackin\pal7.bin"
 
-.align 4
-data_jackIn_frame0:
-	.import "jackin\frame0.bin"
-.align 4
-data_jackIn_frame1:
-	.import "jackin\frame1.bin"
-.align 4
-data_jackIn_frame2:
-	.import "jackin\frame2.bin"
-.align 4
-data_jackIn_frame3:
-	.import "jackin\frame3.bin"
-.align 4
-data_jackIn_frame4:
-	.import "jackin\frame4.bin"
-.align 4
-data_jackIn_frame5:
-	.import "jackin\frame5.bin"
-.align 4
-data_jackIn_frame6:
-	.import "jackin\frame6.bin"
-.align 4
-data_jackIn_frame7:
-	.import "jackin\frame7.bin"
+importas data_jackIn_frame0,"jackin\frame0.bin"
+importas data_jackIn_frame1,"jackin\frame1.bin"
+importas data_jackIn_frame2,"jackin\frame2.bin"
+importas data_jackIn_frame3,"jackin\frame3.bin"
+importas data_jackIn_frame4,"jackin\frame4.bin"
+importas data_jackIn_frame5,"jackin\frame5.bin"
+importas data_jackIn_frame6,"jackin\frame6.bin"
+importas data_jackIn_frame7,"jackin\frame7.bin"
